@@ -2,13 +2,13 @@ public class Electronics {
         String deviceName;
         String brand;
         double price;
-        int warrantyPeriod; // in months
+        int warrantyPeriod;
         boolean isSmartDevice;
-        double screenSize; // in inches
-        String batteryCapacity; // in mAh
+        double screenSize;
+        String batteryCapacity;
         boolean isWireless;
         String processor;
-        int ramSize; // in GB
+        int ramSize;
 
         public Electronics() {
             this("Smartphone", "Samsung", 799.99, 24, true, 6.5, "4500mAh", true, "Snapdragon 8 Gen 2", 8);

@@ -1,14 +1,14 @@
 public class SolarSystem {
         String planetName;
-        double distanceFromSun; // in million km
-        double orbitalPeriod; // in Earth days
-        double diameter; // in km
+        double distanceFromSun;
+        double orbitalPeriod;
+        double diameter;
         boolean hasRings;
         boolean hasMoons;
         int numberOfMoons;
         boolean supportsLife;
         String atmosphereComposition;
-        double gravity; // in m/s²
+        double gravity;
 
         public SolarSystem() {
             this("Earth", 149.6, 365.25, 12742, false, true, 1, true, "Nitrogen, Oxygen", 9.8);
